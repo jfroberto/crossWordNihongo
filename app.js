@@ -36,12 +36,12 @@ function keyCode(event){
 
     var x = event.keyCode;
 
-    if (x == 87  &&  c012 == "わ") {
+    if (x == 13  &&  c012 == "わ") {
         l001 = 1;
         document.getElementById("names012").value = c012;
     }
     
-    if (x == "&‌#x305F"  && c013 == "た") {
+    if (x == 13  && c013 == "た") {
         l002 = 1;
         document.getElementById("names013").value = c013; 
     }
@@ -52,312 +52,313 @@ function keyCode(event){
 
     if (x == 13 && c020 == "は") {
         l004 = 1;
-        document.getElementById("names014").value = c020; 
+        document.getElementById("names020").value = c020; 
     }
 
     if (x == 13 && c021 == "い") {
         l005 = 1;
-        document.getElementById("names014").value = c021; 
+        document.getElementById("names021").value = c021; 
     }
 
     //な	ん	さ	い
 
     if (x == 13 && c053 == "な") {
         l006 = 1;
-        document.getElementById("names014").value = c053; 
+        document.getElementById("names053").value = c053; 
     }
 
     if (x == 13 && c054 == "ん") {
         l007 = 1;
-        document.getElementById("names014").value = c054; 
+        document.getElementById("names054").value = c054; 
     }
 
     if (x == 13 && c055 == "さ") {
         l008 = 1;
-        document.getElementById("names014").value = c055; 
+        document.getElementById("names055").value = c055; 
     }
 
-    if (x == 13 && c056 == "さ") {
+    if (x == 13 && c056 == "い") {
         l009 = 1;
-        document.getElementById("names014").value = c056; 
+        document.getElementById("names056").value = c056; 
     }
 
     //ど	う	ぞ	よ	ろ	し	く	お	ね	が	い	し	ま	す
 
     if (x == 13 && c071 == "ど") {
         l010 = 1;
-        document.getElementById("names014").value = c071; 
+        document.getElementById("names071").value = c071; 
     }
 
     if (x == 13 && c072 == "う") {
         l011 = 1;
-        document.getElementById("names014").value = c072; 
+        document.getElementById("names072").value = c072; 
     }
 
     if (x == 13 && c073 == "ぞ") {
         l012 = 1;
-        document.getElementById("names014").value = c073 
+        document.getElementById("names073").value = c073 
     }
 
     if (x == 13 && c074 == "よ") {
         l013 = 1;
-        document.getElementById("names014").value = c074; 
+        document.getElementById("names074").value = c074; 
     }
 
     if (x == 13 && c075 == "ろ") {
         l014 = 1;
-        document.getElementById("names014").value = c075; 
+        document.getElementById("names075").value = c075; 
     }
 
     if (x == 13 && c076 == "し") {
         l015 = 1;
-        document.getElementById("names014").value = c076; 
+        document.getElementById("names076").value = c076; 
     }
 
     if (x == 13 && c077 == "く") {
         l016 = 1;
-        document.getElementById("names014").value = c077; 
+        document.getElementById("names077").value = c077; 
     }
 
     if (x == 13 && c078 == "お") {
         l017 = 1;
-        document.getElementById("names014").value = c078; 
+        document.getElementById("names078").value = c078; 
     }
 
     if (x == 13 && c079 == "ね" ) {
         l018 = 1;
-        document.getElementById("names014").value = c079; 
+        document.getElementById("names079").value = c079; 
     }
 
     if (x == 13 && c080 == "が") {
         l019 = 1;
-        document.getElementById("names014").value = c080; 
+        document.getElementById("names080").value = c080; 
     }
 
     if (x == 13 && c081 == "い") {
         l020 = 1;
-        document.getElementById("names014").value = c081; 
+        document.getElementById("names081").value = c081; 
     }
 
     if (x == 13 && c082 == "し") {
         l021 = 1;
-        document.getElementById("names014").value = c082; 
+        document.getElementById("names082").value = c082; 
     }
 
     if (x == 13 && c083 == "ま") {
         l022 = 1;
-        document.getElementById("names014").value = c083; 
+        document.getElementById("names083").value = c083; 
     }
 
     if (x == 13 && c084 == "す") {
         l023 = 1;
-        document.getElementById("names014").value = c084; 
+        document.getElementById("names084").value = c084; 
     }
     //い	しゃ
-    if (x == 13 && c122 == "す") {
+    if (x == 13 && c122 == "い") {
         l024 = 1;
-        document.getElementById("names014").value = c122; 
+        document.getElementById("names122").value = c122; 
     }
     if (x == 13 && c123 == "しゃ") {
         l025 = 1;
-        document.getElementById("names014").value = c123; 
+        document.getElementById("names123").value = c123; 
     }
 
     // い	い	え
     if (x == 13 && c137 == "い") {
         l026 = 1;
-        document.getElementById("names014").value = c137; 
+        document.getElementById("names137").value = c137; 
     }
     if (x == 13 && c138 == "い") {
         l027 = 1;
-        document.getElementById("names014").value = c138; 
+        document.getElementById("names138").value = c138; 
     }
     if (x == 13 && c139 == "え") {
         l028 = 1;
-        document.getElementById("names014").value = c139; 
+        document.getElementById("names139").value = c139; 
     }
 
     //ぎ	ん	こ	う	い	ん
 
     if (x == 13 && c146 == "ぎ") {
         l029 = 1;
-        document.getElementById("names014").value = c146; 
+        document.getElementById("names146").value = c146; 
     }
 
     if (x == 13 && c147 == "ん") {
         l030 = 1;
-        document.getElementById("names014").value = c147; 
+        document.getElementById("names147").value = c147; 
     }
 
     if (x == 13 && c148 == "こ") {
         l031 = 1;
-        document.getElementById("names014").value = c148; 
+        document.getElementById("names148").value = c148; 
     }
 
     if (x == 13 && c149 == "う") {
         l032 = 1;
-        document.getElementById("names014").value = c149; 
+        document.getElementById("names149").value = c149; 
     }
 
     if (x == 13 && c150 == "い") {
         l033 = 1;
-        document.getElementById("names014").value = c150; 
+        document.getElementById("names150").value = c150; 
     }
 
     if (x == 13 && c151 == "ん") {
         l034 = 1;
-        document.getElementById("names014").value = c151; 
+        document.getElementById("names151").value = c151; 
     }
 
     //びょ	う	い	ん
     if (x == 13 && c174 == "びょ") {
         l035 = 1;
-        document.getElementById("names014").value = c174; 
+        document.getElementById("names174").value = c174; 
     }
     if (x == 13 && c175 == "う") {
         l036 = 1;
-        document.getElementById("names014").value = c175; 
+        document.getElementById("names175").value = c175; 
     }
     if (x == 13 && c176 == "い") {
         l037 = 1;
-        document.getElementById("names014").value = c176; 
+        document.getElementById("names176").value = c176; 
     }
-    if (x == 13 && c176 == "ん") {
+    if (x == 13 && c177 == "ん") {
         l038 = 1;
-        document.getElementById("names014").value = c176; 
+        document.getElementById("names177").value = c177; 
     }
 
     //DOWN
     //しつれいですが
-    //if (x == 13 && c014 == "し") {
-    //    l039 = 1;
-    //    document.getElementById("names014").value = c014; 
-    //}
+    if (x == 13 && c014 == "し") {
+        l039 = 1;
+        document.getElementById("names014").value = c014; 
+    }
     if (x == 13 && c028 == "つ") {
         l040 = 1;
-        document.getElementById("names014").value = c028; 
+        document.getElementById("names028").value = c028; 
     }
     if (x == 13 && c042 == "れ") {
         l041 = 1;
-        document.getElementById("names014").value = c042; 
+        document.getElementById("names042").value = c042; 
     }
-   // if (x == 13 && c056 == "い") {
-   //     l042 = 1;
-   //     document.getElementById("names014").value = c056; 
-   // }
+    if (x == 13 && c056 == "い") {
+       l042 = 1;
+        document.getElementById("names056").value = c056; 
+    }
     if (x == 13 && c070 == "で") {
         l043 = 1;
-        document.getElementById("names014").value = c070; 
+        document.getElementById("names070").value = c070; 
     }
-   // if (x == 13 && c084 == "す") {
-   //     l044 = 1;
-   //     document.getElementById("names014").value = c084; 
-   // }
+    if (x == 13 && c084 == "す") {
+        l044 = 1;
+        document.getElementById("names084").value = c084; 
+     }
     if (x == 13 && c098 == "が") {
         l045 = 1;
-        document.getElementById("names014").value = c098; 
+        document.getElementById("names098").value = c098; 
     }
 
     //はじめまして
     if (x == 13 && c020 == "は") {
         l046 = 1;
-        document.getElementById("names014").value = c020; 
+        document.getElementById("names020").value = c020; 
     }
     if (x == 13 && c034 == "じ") {
         l047 = 1;
-        document.getElementById("names014").value = c034; 
+        document.getElementById("names034").value = c034; 
     }
     if (x == 13 && c048 == "め") {
         l048 = 1;
-        document.getElementById("names014").value = c048; 
+        document.getElementById("names048").value = c048; 
     }
     if (x == 13 && c062 == "ま") {
         l049 = 1;
-        document.getElementById("names014").value = c062; 
+        document.getElementById("names062").value = c062; 
     }
     if (x == 13 && c076 == "し") {
         l050 = 1;
-        document.getElementById("names014").value = c076; 
+       document.getElementById("names076").value = c076; 
     }
     if (x == 13 && c090 == "て") {
         l051 = 1;
-        document.getElementById("names014").value = c090; 
+        document.getElementById("names090").value = c090; 
     }
 
     //きょうし
     if (x == 13 && c058 == "きょ") {
         l052 = 1;
-        document.getElementById("names014").value = c058; 
+        document.getElementById("names058").value = c058; 
     }
     if (x == 13 && c072 == "う") {
         l053 = 1;
-        document.getElementById("names014").value = c072; 
+       document.getElementById("names072").value = c072; 
     }
     if (x == 13 && c086 == "し") {
         l054 = 1;
-        document.getElementById("names014").value = c086; 
+        document.getElementById("names086").value = c086; 
     }
 
     //がくせい
     if (x == 13 && c080 == "が") {
         l055 = 1;
-        document.getElementById("names014").value = c080; 
+       document.getElementById("names080").value = c080; 
     }
     if (x == 13 && c094 == "く") {
         l056 = 1;
-        document.getElementById("names014").value = c094; 
+        document.getElementById("names094").value = c094; 
     }
     if (x == 13 && c108 == "せ") {
         l057 = 1;
-        document.getElementById("names014").value = c108; 
+        document.getElementById("names108").value = c108; 
     }
     if (x == 13 && c122 == "い") {
         l058 = 1;
-        document.getElementById("names014").value = c122; 
+        document.getElementById("names122").value = c122; 
     }
 
     //けんきゅうしゃ 
     if (x == 13 && c133 == "け") {
         l059 = 1;
-        document.getElementById("names014").value = c133; 
+        document.getElementById("names133").value = c133; 
     }
     if (x == 13 && c147 == "ん") {
         l060 = 1;
-        document.getElementById("names014").value = c147; 
+        document.getElementById("names147").value = c147; 
     }
     if (x == 13 && c161 == "きゅ") {
         l061 = 1;
-        document.getElementById("names014").value = c161; 
+        document.getElementById("names161").value = c161; 
     }
     if (x == 13 && c175 == "う") {
         l062 = 1;
-        document.getElementById("names014").value = c175; 
+        document.getElementById("names175").value = c175; 
     }
     if (x == 13 && c189 == "しゃ") {
         l063 = 1;
-        document.getElementById("names014").value = c189; 
+        document.getElementById("names189").value = c189; 
     }
 
     //しゃいん
     if (x == 13 && c123 == "しゃ") {
         l064 = 1;
-        document.getElementById("names014").value = c123; 
+        document.getElementById("names123").value = c123; 
     }
     if (x == 13 && c137 == "い") {
         l065 = 1;
-        document.getElementById("names014").value = c137; 
+        document.getElementById("names137").value = c137; 
     }
     if (x == 13 && c151 == "ん") {
         l066 = 1;
-        document.getElementById("names014").value = c151; 
+        document.getElementById("names151").value = c151; 
     }
 
 
     var k = l001	+	l002	+	l003	+	l004	+	l005	+	l006	+	l007	+	l008	+	l009	+	l010	+	l011	+	l012	+	l013	+	l014	+	l015	+	l016	+	l017	+	l018	+	l019	+	l020	+	l021	+	l022	+	l023	+	l024	+	l025	+	l026	+	l027	+	l028	+	l029	+	l030	+	l031	+	l032	+	l033	+	l034	+	l035	+	l036	+	l037	+	l038	+	l039	+	l040	+	l041	+	l042	+	l043	+	l044	+	l045	+	l046	+	l047	+	l048	+	l049	+	l050	+	l051	+	l052	+	l053	+	l054	+	l055	+	l056	+	l057	+	l058	+	l059	+	l060	+	l061	+	l062	+	l063	+	l064	+	l065	+	l066	+	l067	+	l068	+	l069	+	l070;
 
-    document.getElementById("score001").innerHTML = "Number of letters:  " + k + " out of 60";
-    if (k == "60") {
-        document.getElementById("next001").innerHTML = "Congratulation You solve the puzzle";
+    document.getElementById("score001").innerHTML = "Number of letters:  " + k + " out of 66";
+    if (k == "1") {
+        //document.getElementById("next001").innerHTML = "Congratulation You solve the puzzle";
+        alert("Congratulation You solve the puzzle");
     }
     
 }
